@@ -1,7 +1,0 @@
-npm init -y
-npm install express mongoose cors dotenv bcyrpt express-async-handler
-npm install nodemon
-"scripts": {
-  "start": "node server.js",
-  "dev": "nodemon server.js"
-}
