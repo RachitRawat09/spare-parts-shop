@@ -7,7 +7,7 @@ const {getAllProducts,
     deleteProduct} = require('../controllers/productController');
 
 // get all products
-router.route('/',).get(getAllProducts);
+router.route('/').get(getAllProducts);
 
 // create a new product
 router.route('/').post(createProduct)
